@@ -11,10 +11,9 @@ body{
 ::-webkit-scrollbar{
   width: 0px;
 }
-
 .head{
   display: flex;    
-  background-color: #0b0b0b;
+  background-color: #0c0c0d;
   padding-top: 20px;
   padding-bottom: 20px;    
   width: 100%;
@@ -30,37 +29,31 @@ body{
   z-index: 1000;
 
 }
-
 .nothing{
   width: 65px;
   height: 65px;
 }
-
 .b-heed{
   color: #ffffff;
   display: flex;
   margin-right: auto;
   margin-left: 5%;    
 }
-
 .b-heed p{
   line-height: 20px;
   margin-right: 20px;
 }
-
 .head h2{
   color: #d4e3ff;
   line-height: 20px;
   margin-left: auto;
   margin-right: 5%;
 }
-
 .top-box{
   display: flex;
   flex-wrap: wrap;
   margin: 10px 20px 0px 20px;
 }
-
 .part-box-a{
   background-color: #ff0033;
   width: 100%;
@@ -70,7 +63,6 @@ body{
   margin-right: auto;
   margin-bottom: 10px;
 }
-
 .top-box p{
   color: #ffffff;
   font-size: 20px;
@@ -84,84 +76,36 @@ body{
   border-bottom-right-radius: 5px;
   filter: drop-shadow(#000000 0px 0px 1px);
 }
-
 .part-txt{
   margin-top: 10px;
   margin-left: 20px;
   color: #ffffff;
 }
-
-
-
-/*دکستاپ*/
-@media (min-width: 758px)
-{
-  .box-vid img{
-    width: 95%;
-    border-radius: 10px;
-    box-shadow: #0000009f 0px 1px 10px;
-  }
-  .all-wid{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .box-vid{
-    text-align: center;
-    width: 250px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-  }  
-  .titel-vid-a{
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 12px;
-    line-height: 20px;
-  }
-  .titel-vid-b{
-    text-decoration: none;
-    color: #a0a0a0;
-    font-size: 10px;
-    line-height: 20px;
-  }
-  .txt-box-vid{
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: right;
-    text-shadow: #0000009f 0px 1px 10px;
-  }
+.box-vid img{  
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: #0000009f 0px 1px 10px;
 }
-/*موبایل*/
-@media (max-width: 767px)
-{
-  .box-vid img{  
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: #0000009f 0px 1px 10px;
-  }
-  .box-vid{
-    text-align: center;
-    margin: 20px;
-  }  
-  .titel-vid-a{
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 15px;
-    line-height: 20px;
-  }
-  .titel-vid-b{
-    text-decoration: none;
-    color: #a0a0a0;
-    font-size: 10px;
-    line-height: 20px;
-  }
-  .txt-box-vid{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: right;
-    text-shadow: #0000009f 0px 1px 10px;
-  }
+.box-vid{
+  text-align: center;
+  margin: 20px;
+}  
+.titel-vid-a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 20px;
+}
+.titel-vid-b{
+  text-decoration: none;
+  color: #a0a0a0;
+  font-size: 10px;
+  line-height: 20px;
+}
+.txt-box-vid{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+  text-shadow: #0000009f 0px 1px 10px;
 }
